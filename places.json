@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "נהרדעא"
+      },
+      "geometry": {
+        "coordinates": [
+          43.3125, 33.419722
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "סורא"
+      },
+      "geometry": {
+        "coordinates": [
+          44.45, 31.883333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "פומבדיתא"
+      },
+      "geometry": {
+        "coordinates": [
+          43.786111, 33.351111
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ארדשיר"
+      },
+      "geometry": {
+        "coordinates": [
+          44.554167, 33.098333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "מחוזא"
+      },
+      "geometry": {
+        "coordinates": [
+          44.583333, 33.1
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "בורסיף"
+      },
+      "geometry": {
+        "coordinates": [
+          44.341689, 32.391997
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "קפוטקיא"
+      },
+      "geometry": {
+        "coordinates": [
+          34.853611, 38.658333
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "בבל"
+      },
+      "geometry": {
+        "coordinates": [
+          44.421111, 32.5425
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "חדייב"
+      },
+      "geometry": {
+        "coordinates": [
+          44.009189, 36.191188
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test"
+      },
+      "geometry": {
+        "coordinates": [
+          -75.0651337788667, 40.06557612249297
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

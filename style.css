@@ -1,0 +1,18 @@
+@import "node_modules/ol/ol.css";
+@font-face {
+  font-family: "shmulik";
+  src:
+    url("assets/shmulikclm-webfont.woff2") format("woff2"),
+    url("assets/shmulikclm-webfont.woff") format("woff");
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
