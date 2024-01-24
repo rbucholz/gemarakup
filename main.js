@@ -26,7 +26,7 @@ const  placesLayer = new VectorLayer({
             color: [255, 255, 255, 0.8],
             width: 2
           }),
-          font: '12px Courier, shmulik, Helvetica Neue, Arial'
+          font: '10pt shmulik, serif',
         })
       })
 });
@@ -34,9 +34,6 @@ const  placesLayer = new VectorLayer({
 const map = new Map({
   target: 'map',
   layers: [
-    // new TileLayer({
-    //   source: new OSM()
-    // }),
       new Tile({
         source: new XYZ({
           url: 'http://services.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}'
@@ -48,6 +45,6 @@ const map = new Map({
   view: new View({
     center: fromLonLat([43.027307, 34.324279]),
     maxZoom: 19,
-    zoom: 6,
+    zoom: 7,
   })
 });
