@@ -1,7 +1,5 @@
 import './style.css';
 import {Map, View} from 'ol';
-import TileLayer from 'ol/layer/Tile';
-import OSM from 'ol/source/OSM';
 import {fromLonLat} from "ol/proj";
 import VectorLayer from "ol/layer/Vector";
 import VectorSource from "ol/source/Vector";
@@ -46,5 +44,16 @@ const map = new Map({
     center: fromLonLat([43.027307, 34.324279]),
     maxZoom: 19,
     zoom: 7,
-  })
+  }),
 });
+
+const onFeatureClick = (event) => {
+    const feature = map.forEachFeatureAtPixel(event.pixel, (feature, layer) => feature);
+    if (feature) {
+        const coordinates = feature.getGeometry().getCoordinates();
+        map.getView().animate({center: coordinates, zoom: 15});
+        // alert(feature.get('name'));
+    }
+};
+
+map.on('click', onFeatureClick);
