@@ -2,7 +2,6 @@
 @font-face {
   font-family: "shmulik";
   src:
-    url("assets/shmulikclm-webfont.woff2") format("woff2"),
     url("assets/shmulikclm-webfont.woff") format("woff");
 }
 
