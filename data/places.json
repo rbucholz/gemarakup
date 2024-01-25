@@ -4,7 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "נהרדעא"
+        "name": "נהרדעא",
+        "id": "1"
       },
       "geometry": {
         "coordinates": [
@@ -112,11 +113,23 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Test"
+        "name": "אקטיספון"
       },
       "geometry": {
         "coordinates": [
-          -75.0651337788667, 40.06557612249297
+          44.580556, 33.093611
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "אפריקי"
+      },
+      "geometry": {
+        "coordinates": [
+          38.116667, 39.366667
         ],
         "type": "Point"
       }

@@ -10,7 +10,7 @@ import {XYZ} from "ol/source";
 
 const  placesLayer = new VectorLayer({
   source: new VectorSource({
-    url: './places.json',
+    url: './data/places.json',
     format: new GeoJSON(),
   }),
   style: (feature) =>
@@ -47,12 +47,12 @@ const map = new Map({
   }),
 });
 
-const onFeatureClick = (event) => {
-    const feature = map.forEachFeatureAtPixel(event.pixel, (feature, layer) => feature);
+const onFeatureClick = ($event) => {
+    const feature = map.forEachFeatureAtPixel($event.pixel, (feature, layer) => feature);
     if (feature) {
         const coordinates = feature.getGeometry().getCoordinates();
         map.getView().animate({center: coordinates, zoom: 15});
-        // alert(feature.get('name'));
+        // alert(feature.get('id'));
     }
 };
 
